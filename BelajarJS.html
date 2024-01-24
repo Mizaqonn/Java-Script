@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BelajarJS</title>
+    <link rel="icon" href="JS-LOGO.png" type="image/x-icon">
+</head>
+<body>
+    <script>
+        let NilaiUN = prompt ("Berapa Nilai Mu (*isi dengan jujur)")
+        alert ('Hasil dari nilai mu ' + NilaiUN)
+
+        if(NilaiUN >= 90 && NilaiUN <= 100){
+            console.log ("SELAMAT ANDA LOLOS KARENA NILAI TEST ANDA SANGAT MEMUASKAN")
+            document.write ('SELAMAT ANDA LOLOS KARENA NILAI TEST ANDA SANGAT MEMUASKAN ');
+
+        }
+
+        else if(NilaiUN >= 80 && NilaiUN <= 90){
+            if (jalur = "rapot"){
+                console.log ("SELAMAT ANDA LOLOS KARENA NILAI ANDA SANGAT BAGUS")
+                document.write ('SELAMAT ANDA LOLOS KARENA NILAI ANDA SANGAT BAGUS');
+
+            } 
+        }
+        else if(NilaiUN >= 75 && NilaiUN <= 80){
+            if (jalur ="prestasi"){
+                console.log ("SELAMAT ANDA LOLOS KAARENA PRESTASI YANG SANGAT LUAR BIASA")
+                document.write ('SELAMAT ANDA LOLOS KARENA PRESTASI YANG SANGAT LUAR BIASA');
+
+            }
+        }   
+        else {
+                console.log ("MOHON MAAF ANDA TIDAK LOLOS, COBA LAGI LAIN KALI")
+                alert('MOHON MAAF ANDA TIDAK LOLOS, COBA LAGI LAIN KALI');
+
+        }
+    </script>
+</body>
+</html>

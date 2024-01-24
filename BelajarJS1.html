@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BelajarJS 1</title>
+    <link rel="shortcut icon" href="JS-LOGO.png" type="image/x-icon">
+</head>
+<body>
+    <script>
+        let totalHarga = prompt ("Berapa Total Belanjaan anda")
+        alert ('totalHarga' - diskon)
+
+        if (totalHarga > 100000) {
+            let diskon = 10/100 * totalHarga;
+            let setelahDiskon = totalHarga - diskon;
+            console.log ("Total Belanjaan adalah" + totalHarga)
+            document.write ('Total belanjaan adalah'  + totalHarga);
+
+            console.log ("karena belanjaan lebih dari 100000, kamu mendapatkan diskon 10% menjadi total harga " + setelahDiskon)
+            document.write ('Total belanjaan lebih dari 100000, kamu mendapatkan diskon 10% menjadi total harga ' + setelahDiskon);
+        }
+        else{
+            console.log ('Total belanjaan anda tidak mendapatkan diskon ' + totalHarga)
+            document.write ('Total belanja anda tidak mendapatkan diskon ' + totalHarga);
+        }
+    </script>
+</body>
+</html>

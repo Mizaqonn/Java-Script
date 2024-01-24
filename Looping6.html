@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping 6</title>
+    <link rel="icon" href="JS-LOGO.png" type="image/x-icon">
+</head>
+<body>
+    <script>
+        function faktorial (n) {
+            let hasil = 1;
+            for (let x = 2; x <= n; x++ ) {
+                hasil *= x;
+            }
+            return hasil;
+        }
+        
+        let n = 5
+        console.log (`Hasil ${n} faktorial adalah ${faktorial(n)}`);
+    </script>
+</body>
+</html>

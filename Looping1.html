@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping 1</title>
+    <link rel="icon" href="JS-LOGO.png" type="image/x-icon">
+</head>
+<body>
+    <script>
+        let x = 1600
+        do {
+            if ( x % 400 === 0 ) {
+                console.log (`Tahun ${x} adalah tahun kabisat`);
+            } else if ( x % 100 === 0 ) {
+                console.log (`Tahun ${x} bukan tahun kabisat`);
+            } else if ( x % 4 === 0 ) {
+                console.log (`Tahun ${x} adalah tahun kabisat`);
+            } x++
+        } while ( x <= 2024 );
+    </script>
+</body>
+</html>
